@@ -9,25 +9,16 @@ import BasicStateModule from './Components/BasicStateModule'
 import StateArrayModule from './Components/StateArrayModule'
 import LocalJsoneModule from './Components/LocalJsonModule'
 import Checklist from './Components/Checklist'
+import Characters from './Components/Characters'
 
 const App = () => {
   return (
-    <div>
-      <Sidebar /> {/* <- Navigation for the site */}
-      <main className="App">
-        {/* Welcome msg and info about me */}
-        <AboutSection />
-        <section className="modules">
+    <div >
+      <main className="App" > {
 
-        </section>
-        {/* Examples of good UX */}
-        <h5 style={{ padding: 0, margin: 0, marginBottom: 12 + 'px', fontSize: 4 + 'rem', }} >UI/UX examples</h5>
-        <section className="modules">
-
-        </section>
-        {/* React modules */}
-        <h5 style={{ padding: 0, margin: 0, marginBottom: 12 + 'px', fontSize: 4 + 'rem', }} >React modules</h5>
-        <section className="modules">
+        /* React modules */
+      } < h5 style={{ padding: 0, margin: 0, marginBottom: 12 + 'px', fontSize: 4 + 'rem', }}>React modules </h5>
+        <section className="modules" >
           <BasicModule />
           <BasicPropsModule value='pink' />
           <DefaultPropsModule />
@@ -35,8 +26,9 @@ const App = () => {
           <StateArrayModule />
           <LocalJsoneModule />
           <Checklist />
+          <Characters />
         </section>
-      </main >
+      </main>
     </div>
   )
 }

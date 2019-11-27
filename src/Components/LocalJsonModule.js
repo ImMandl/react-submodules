@@ -18,7 +18,7 @@ const LocalJsoneModule = () => {
 
 
     return (
-        <div className="submodule local-json scroll">
+        <div className="submodule module-height scroll">
             <h2>Local JSON module</h2>
             <p>This module uses data from a local JSON file. JSON (JavaScript Object Notation) is a lightweight data-interchange format.</p>
             <p>Scroll inside this module to see entire list</p>
