@@ -1,0 +1,13 @@
+.video {
+    background-color: #333;
+    color: white;
+    padding: .8rem;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.video h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}

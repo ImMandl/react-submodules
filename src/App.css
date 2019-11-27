@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  color: #222;
+}
+
+.App {
+  margin-left: 210px;
+}
+
+/* moduler */
+.modules {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.submodule {
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 12px;
+  border: 1rem solid white;
+}
+
+.propPink {
+  color: palevioletred;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #444;
+  box-shadow: 2px 2px 1px  #444;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #444;
+  box-shadow: -1px -1px 0.1px #444;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.span-purple {
+  color: purple;
+}
