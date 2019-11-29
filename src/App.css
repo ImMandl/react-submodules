@@ -5,12 +5,12 @@
 body, html {
   margin: 0;
   padding: 0;
-  background-color: #eee;
   color: #222;
+  background-color: #eee;
 }
 
-.App {
-  margin-left: 210px;
+body {
+  margin: 1rem;
 }
 
 /* moduler */
@@ -22,9 +22,9 @@ body, html {
 
 .submodule {
   padding: 0.5rem;
-  background-color: white;
+  background-color: #FFF;
   border-radius: 12px;
-  border: 1rem solid white;
+  border: 1rem solid #FFF;
 }
 
 .propPink {
@@ -36,7 +36,7 @@ button {
   border-radius: 8px;
   background-color: white;
   border: 1px solid #444;
-  box-shadow: 2px 2px 1px  #444;
+  box-shadow: 1px 1px 1px  #444;
 }
 
 button:focus {
